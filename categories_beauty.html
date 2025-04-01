@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopEasy - Electronics</title>
+    <title>Beauty Products - ShopEasy</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -17,14 +18,14 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#products-section">Products</a></li>
+                    <li><a href="index.html#products-section">Products</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropbtn active">Categories</a>
+                        <a href="#" class="dropbtn">Categories</a>
                         <div class="dropdown-content">
-                            <a href="" class="active">Electronics</a>
+                            <a href="categories_electronics.html">Electronics</a>
                             <a href="categories_clothing.html">Clothing</a>
                             <a href="categories_Home_kitchen.html">Home & Kitchen</a>
-                            <a href="categories_beauty.html">Beauty</a>
+                            <a href="categories_beauty.html" class="active">Beauty</a>
                         </div>
                     </li>
                     <li><a href="contact.html">Contact</a></li>
@@ -32,7 +33,7 @@
             </nav>
             <div class="icons">
                 <div class="search">
-                    <input type="text" placeholder="Search electronics...">
+                    <input type="text" placeholder="Search beauty products...">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </div>
                 <div class="cart">
@@ -47,174 +48,38 @@
 
     <section class="category-hero">
         <div class="container">
-            <h1>Electronics</h1>
-            <p>Discover cutting-edge technology and top-rated electronic devices</p>
+            <h1>Beauty Products</h1>
+            <p>Discover our collection of premium beauty products designed to enhance your natural beauty. From skincare
+                to makeup, we have everything you need for your beauty routine.</p>
         </div>
     </section>
-
-    <section class="electronics-categories">
+    
+    <section class="fashion-seasons">
         <div class="container">
-            <h2 class="section-title">Shop Electronics by Category</h2>
-            <div class="categories">
-                <div class="category-card">
-                    <img src="https://images.unsplash.com/photo-1546054454-aa26e2b734c7?q=80&w=3080&auto=format&fit=crop" alt="Smartphones">
-                    <h3>Smartphones</h3>
-                </div>
-                <div class="category-card">
-                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=3171&auto=format&fit=crop" alt="Laptops & Computers">
-                    <h3>Laptops & Computers</h3>
-                </div>
-                <div class="category-card">
-                    <img src="https://images.unsplash.com/photo-1564424224827-cd24b8915874?q=80&w=3132&auto=format&fit=crop" alt="Headphones & Audio">
-                    <h3>Headphones & Audio</h3>
-                </div>
-                <div class="category-card">
-                    <img src="https://images.unsplash.com/photo-1601944177325-f8867652837f?q=80&w=2940&auto=format&fit=crop" alt="Smart Home">
-                    <h3>Smart Home</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="products" id="products-section">
-        <div class="container">
-            <h2 class="section-title">Featured Electronics</h2>
-            <div class="product-grid" id="electronics-container">
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=2940&auto=format&fit=crop" alt="Smartphone">
-                    </div>
-                    <div class="product-info">
-                        <h3>Premium Smartphone X12</h3>
-                        <div class="price">$899.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
+            <h2 class="section-title">Beauty Categories</h2>
+            <div class="seasons-grid">
+                <div class="season-card">
+                    <img src="/api/placeholder/400/300" alt="Skincare Products">
+                    <div class="season-overlay">
+                        <h3>Skincare</h3>
+                        <p>Nourish your skin with our premium skincare products</p>
+                        <a href="#" class="btn">Shop Skincare</a>
                     </div>
                 </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1625321150214-89730bc41708?q=80&w=2940&auto=format&fit=crop" alt="Wireless Earbuds">
-                    </div>
-                    <div class="product-info">
-                        <h3>Wireless Earbuds Pro</h3>
-                        <div class="price">$159.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
+                <div class="season-card">
+                    <img src="/api/placeholder/400/300" alt="Makeup Products">
+                    <div class="season-overlay">
+                        <h3>Makeup</h3>
+                        <p>Express yourself with our quality makeup collection</p>
+                        <a href="#" class="btn">Shop Makeup</a>
                     </div>
                 </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1504707748692-419802cf939d?q=80&w=3147&auto=format&fit=crop" alt="Smart Watch">
-                    </div>
-                    <div class="product-info">
-                        <h3>Smart Watch Series 7</h3>
-                        <div class="price">$329.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?q=80&w=3057&auto=format&fit=crop" alt="Laptop">
-                    </div>
-                    <div class="product-info">
-                        <h3>Ultra Slim Laptop Pro</h3>
-                        <div class="price">$1299.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1600003263720-95b45a4035d5?q=80&w=2940&auto=format&fit=crop" alt="Smart Speaker">
-                    </div>
-                    <div class="product-info">
-                        <h3>Smart Home Speaker</h3>
-                        <div class="price">$129.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1615655067135-48a0622e354e?q=80&w=3087&auto=format&fit=crop" alt="DSLR Camera">
-                    </div>
-                    <div class="product-info">
-                        <h3>Professional DSLR Camera</h3>
-                        <div class="price">$899.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1624913503273-5f9c4e980dba?q=80&w=2938&auto=format&fit=crop" alt="Gaming Console">
-                    </div>
-                    <div class="product-info">
-                        <h3>Next-Gen Gaming Console</h3>
-                        <div class="price">$499.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1573739713271-5c9f1d54dab9?q=80&w=2942&auto=format&fit=crop" alt="Tablet">
-                    </div>
-                    <div class="product-info">
-                        <h3>Tablet Pro 11-inch</h3>
-                        <div class="price">$749.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
+                <div class="season-card">
+                    <img src="/api/placeholder/400/300" alt="Haircare Products">
+                    <div class="season-overlay">
+                        <h3>Haircare</h3>
+                        <p>Keep your hair healthy and beautiful with our haircare range</p>
+                        <a href="#" class="btn">Shop Haircare</a>
                     </div>
                 </div>
             </div>
@@ -223,12 +88,210 @@
 
     <section class="deals">
         <div class="container">
-            <h2 class="section-title">Hot Deals</h2>
             <div class="deals-banner">
                 <div class="deal-content">
-                    <h3>Save up to 30% on Smart Home Devices</h3>
-                    <p>Limited time offer. While supplies last.</p>
-                    <a href="#" class="btn">Shop Now</a>
+                    <h3>Spring Beauty Sale</h3>
+                    <p>Up to 40% off on selected beauty products. Limited time offer!</p>
+                    <a href="#" class="btn">Shop the Sale</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <h2 class="section-title">Featured Beauty Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-tag new">New</div>
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/200" alt="Vitamin C Serum">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vitamin C Brightening Serum</h3>
+                        <div class="price">$34.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-tag sale">Sale</div>
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/200" alt="Foundation">
+                    </div>
+                    <div class="product-info">
+                        <h3>Stay-All-Day Foundation</h3>
+                        <div class="price">$29.99 <span
+                                style="text-decoration: line-through; color: #999; font-size: 16px;">$39.99</span></div>
+                        <div class="color-options">
+                            <div class="color-option" style="background-color: #f5d9c8;"></div>
+                            <div class="color-option" style="background-color: #e8bc9c;"></div>
+                            <div class="color-option" style="background-color: #c6946c;"></div>
+                            <div class="color-option" style="background-color: #8d5524;"></div>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(85)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/200" alt="Cleanser">
+                    </div>
+                    <div class="product-info">
+                        <h3>Gentle Foaming Cleanser</h3>
+                        <div class="price">$18.50</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(36)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/200" alt="Lipstick">
+                    </div>
+                    <div class="product-info">
+                        <h3>Matte Finish Lipstick</h3>
+                        <div class="price">$22.99</div>
+                        <div class="color-options">
+                            <div class="color-option" style="background-color: #d73746;"></div>
+                            <div class="color-option" style="background-color: #a53346;"></div>
+                            <div class="color-option" style="background-color: #ed9b9e;"></div>
+                            <div class="color-option" style="background-color: #f4c2c2;"></div>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <span>(58)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/200" alt="Hair Oil">
+                    </div>
+                    <div class="product-info">
+                        <h3>Argan Hair Oil Treatment</h3>
+                        <div class="price">$25.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(127)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-tag new">New</div>
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/200" alt="Eye Palette">
+                    </div>
+                    <div class="product-info">
+                        <h3>Shimmer Eyeshadow Palette</h3>
+                        <div class="price">$45.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(19)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/200" alt="Face Mask">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hydrating Sheet Mask Set</h3>
+                        <div class="price">$15.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(93)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-tag sale">Sale</div>
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/200" alt="Perfume">
+                    </div>
+                    <div class="product-info">
+                        <h3>Floral Essence Eau de Parfum</h3>
+                        <div class="price">$59.99 <span
+                                style="text-decoration: line-through; color: #999; font-size: 16px;">$75.99</span></div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(64)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#" class="btn">View All Beauty Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-showcase">
+        <div class="container">
+            <h2 class="section-title">Featured Brands</h2>
+            <div class="brand-grid">
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="L'Oréal">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="Maybelline">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="Neutrogena">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="CeraVe">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="Fenty Beauty">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="The Ordinary">
                 </div>
             </div>
         </div>
@@ -237,12 +300,23 @@
     <section class="newsletter">
         <div class="container">
             <div class="newsletter-content">
-                <h2>Subscribe to our Electronics Newsletter</h2>
-                <p>Get the latest updates on new gadgets, tech releases, and exclusive deals</p>
+                <h2>Subscribe to our Beauty Newsletter</h2>
+                <p>Get the latest updates on new beauty products, tips, tutorials, and exclusive offers</p>
                 <form id="newsletter-form">
                     <input type="email" placeholder="Your email address" required>
                     <button type="submit" class="btn">Subscribe</button>
                 </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Book a Virtual Beauty Consultation</h2>
+                <p>Get personalized beauty advice from our expert consultants. Learn about products that match your skin
+                    type and beauty goals.</p>
+                <a href="#" class="btn">Book Now</a>
             </div>
         </div>
     </section>
@@ -252,7 +326,7 @@
             <div class="footer-content">
                 <div class="footer-col">
                     <h3>ShopEasy</h3>
-                    <p>Your one-stop shop for all your electronic needs. Quality products at affordable prices.</p>
+                    <p>Your one-stop shop for all your needs. Quality products at affordable prices.</p>
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -285,7 +359,7 @@
                     <ul class="contact-info">
                         <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</li>
                         <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
-                        <li><i class="fas fa-envelope"></i> electronics@shopeasy.com</li>
+                        <li><i class="fas fa-envelope"></i> support@shopeasy.com</li>
                     </ul>
                 </div>
             </div>

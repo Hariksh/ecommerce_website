@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopEasy - Electronics</title>
+    <title>Home & Kitchen - ShopEasy</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -17,13 +18,13 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#products-section">Products</a></li>
+                    <li><a href="products.html">Products</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropbtn active">Categories</a>
+                        <a href="#" class="dropbtn">Categories</a>
                         <div class="dropdown-content">
-                            <a href="" class="active">Electronics</a>
+                            <a href="categories_electronics.html">Electronics</a>
                             <a href="categories_clothing.html">Clothing</a>
-                            <a href="categories_Home_kitchen.html">Home & Kitchen</a>
+                            <a href="categories_home_kitchen.html" class="active">Home & Kitchen</a>
                             <a href="categories_beauty.html">Beauty</a>
                         </div>
                     </li>
@@ -32,7 +33,7 @@
             </nav>
             <div class="icons">
                 <div class="search">
-                    <input type="text" placeholder="Search electronics...">
+                    <input type="text" placeholder="Search products...">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </div>
                 <div class="cart">
@@ -46,176 +47,34 @@
     </header>
 
     <section class="category-hero">
-        <div class="container">
-            <h1>Electronics</h1>
-            <p>Discover cutting-edge technology and top-rated electronic devices</p>
-        </div>
+        <h1>Home & Kitchen</h1>
+        <p>Transform your living space with our curated collection of home decor, kitchen appliances, and essentials for
+            modern living. Quality products for every room in your home.</p>
     </section>
 
-    <section class="electronics-categories">
+    <section class="featured-categories">
         <div class="container">
-            <h2 class="section-title">Shop Electronics by Category</h2>
+            <h2 class="section-title">Popular Categories</h2>
             <div class="categories">
                 <div class="category-card">
-                    <img src="https://images.unsplash.com/photo-1546054454-aa26e2b734c7?q=80&w=3080&auto=format&fit=crop" alt="Smartphones">
-                    <h3>Smartphones</h3>
+                    <img src="https://images.unsplash.com/photo-1556910096-5cdce5e73f24?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2l0Y2hlbiUyMGFwcGxpYW5jZXN8ZW58MHx8MHx8fDA%3D"
+                        alt="Kitchen Appliances">
+                    <h3>Kitchen Appliances</h3>
                 </div>
                 <div class="category-card">
-                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=3171&auto=format&fit=crop" alt="Laptops & Computers">
-                    <h3>Laptops & Computers</h3>
+                    <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMGRlY29yfGVufDB8fDB8fHww"
+                        alt="Home Decor">
+                    <h3>Home Decor</h3>
                 </div>
                 <div class="category-card">
-                    <img src="https://images.unsplash.com/photo-1564424224827-cd24b8915874?q=80&w=3132&auto=format&fit=crop" alt="Headphones & Audio">
-                    <h3>Headphones & Audio</h3>
+                    <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnVybml0dXJlfGVufDB8fDB8fHww"
+                        alt="Furniture">
+                    <h3>Furniture</h3>
                 </div>
                 <div class="category-card">
-                    <img src="https://images.unsplash.com/photo-1601944177325-f8867652837f?q=80&w=2940&auto=format&fit=crop" alt="Smart Home">
-                    <h3>Smart Home</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="products" id="products-section">
-        <div class="container">
-            <h2 class="section-title">Featured Electronics</h2>
-            <div class="product-grid" id="electronics-container">
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=2940&auto=format&fit=crop" alt="Smartphone">
-                    </div>
-                    <div class="product-info">
-                        <h3>Premium Smartphone X12</h3>
-                        <div class="price">$899.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1625321150214-89730bc41708?q=80&w=2940&auto=format&fit=crop" alt="Wireless Earbuds">
-                    </div>
-                    <div class="product-info">
-                        <h3>Wireless Earbuds Pro</h3>
-                        <div class="price">$159.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1504707748692-419802cf939d?q=80&w=3147&auto=format&fit=crop" alt="Smart Watch">
-                    </div>
-                    <div class="product-info">
-                        <h3>Smart Watch Series 7</h3>
-                        <div class="price">$329.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?q=80&w=3057&auto=format&fit=crop" alt="Laptop">
-                    </div>
-                    <div class="product-info">
-                        <h3>Ultra Slim Laptop Pro</h3>
-                        <div class="price">$1299.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1600003263720-95b45a4035d5?q=80&w=2940&auto=format&fit=crop" alt="Smart Speaker">
-                    </div>
-                    <div class="product-info">
-                        <h3>Smart Home Speaker</h3>
-                        <div class="price">$129.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1615655067135-48a0622e354e?q=80&w=3087&auto=format&fit=crop" alt="DSLR Camera">
-                    </div>
-                    <div class="product-info">
-                        <h3>Professional DSLR Camera</h3>
-                        <div class="price">$899.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1624913503273-5f9c4e980dba?q=80&w=2938&auto=format&fit=crop" alt="Gaming Console">
-                    </div>
-                    <div class="product-info">
-                        <h3>Next-Gen Gaming Console</h3>
-                        <div class="price">$499.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1573739713271-5c9f1d54dab9?q=80&w=2942&auto=format&fit=crop" alt="Tablet">
-                    </div>
-                    <div class="product-info">
-                        <h3>Tablet Pro 11-inch</h3>
-                        <div class="price">$749.99</div>
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <button class="btn add-to-cart">Add to Cart</button>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1584905066893-7d5c142ba4e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkZGluZ3xlbnwwfHwwfHx8MA%3D%3D"
+                        alt="Bedding & Bath">
+                    <h3>Bedding & Bath</h3>
                 </div>
             </div>
         </div>
@@ -223,12 +82,209 @@
 
     <section class="deals">
         <div class="container">
-            <h2 class="section-title">Hot Deals</h2>
+            <h2 class="section-title">Special Offers</h2>
             <div class="deals-banner">
                 <div class="deal-content">
-                    <h3>Save up to 30% on Smart Home Devices</h3>
-                    <p>Limited time offer. While supplies last.</p>
-                    <a href="#" class="btn">Shop Now</a>
+                    <h3>Spring Kitchen Essentials Sale</h3>
+                    <p>Up to 40% off on select kitchen appliances and cookware. Limited time offer.</p>
+                    <a href="#" class="btn">Shop the Sale</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products-section">
+        <div class="container">
+            <h2 class="section-title">Top Rated Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-tag new">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1526434426615-1abe81efcb0b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwbWFrZXJ8ZW58MHx8MHx8fDA%3D"
+                            alt="Premium Coffee Maker">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Coffee Maker</h3>
+                        <div class="price">$149.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(128)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-tag sale">Sale</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1587134178428-391c16664271?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxlbmRlcnxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="High-Speed Blender">
+                    </div>
+                    <div class="product-info">
+                        <h3>High-Speed Blender</h3>
+                        <div class="price">$89.99 <span
+                                style="text-decoration: line-through; color: #999; font-size: 16px; margin-left: 5px;">$119.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(206)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1533090368676-1fd25485db88?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3VzaGlvbnN8ZW58MHx8MHx8fDA%3D"
+                            alt="Decorative Pillow Set">
+                    </div>
+                    <div class="product-info">
+                        <h3>Decorative Pillow Set (4 pcs)</h3>
+                        <div class="price">$59.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(89)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMHByb2Nlc3NvcnxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="Food Processor">
+                    </div>
+                    <div class="product-info">
+                        <h3>Multi-Function Food Processor</h3>
+                        <div class="price">$129.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(154)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1621397455326-2d707fc29e62?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RhbmQlMjBtaXhlcnxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="Stand Mixer">
+                    </div>
+                    <div class="product-info">
+                        <h3>Professional Stand Mixer</h3>
+                        <div class="price">$249.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(237)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-tag sale">Sale</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGl2aW5nJTIwcm9vbSUyMGxhbXB8ZW58MHx8MHx8fDA%3D"
+                            alt="Floor Lamp">
+                    </div>
+                    <div class="product-info">
+                        <h3>Modern Floor Lamp</h3>
+                        <div class="price">$79.99 <span
+                                style="text-decoration: line-through; color: #999; font-size: 16px; margin-left: 5px;">$99.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(112)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1602031946401-0f80bba12b1d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmFjdXVtJTIwY2xlYW5lcnxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="Cordless Vacuum">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cordless Vacuum Cleaner</h3>
+                        <div class="price">$199.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(176)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-tag new">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1584990347449-a40ee6c5f409?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2V0dGxlfGVufDB8fDB8fHww"
+                            alt="Electric Kettle">
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Electric Kettle</h3>
+                        <div class="price">$69.99</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(93)</span>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="#" class="btn">Load More Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-showcase">
+        <div class="container">
+            <h2 class="section-title">Featured Brands</h2>
+            <div class="brand-grid">
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="KitchenAid">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="Cuisinart">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="Dyson">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="IKEA">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="Ninja">
+                </div>
+                <div class="brand-item">
+                    <img src="/api/placeholder/120/60" alt="Wayfair">
                 </div>
             </div>
         </div>
@@ -237,8 +293,8 @@
     <section class="newsletter">
         <div class="container">
             <div class="newsletter-content">
-                <h2>Subscribe to our Electronics Newsletter</h2>
-                <p>Get the latest updates on new gadgets, tech releases, and exclusive deals</p>
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Get the latest updates on new home products and upcoming sales</p>
                 <form id="newsletter-form">
                     <input type="email" placeholder="Your email address" required>
                     <button type="submit" class="btn">Subscribe</button>
@@ -252,7 +308,7 @@
             <div class="footer-content">
                 <div class="footer-col">
                     <h3>ShopEasy</h3>
-                    <p>Your one-stop shop for all your electronic needs. Quality products at affordable prices.</p>
+                    <p>Your one-stop shop for all your needs. Quality products at affordable prices.</p>
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -285,7 +341,7 @@
                     <ul class="contact-info">
                         <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</li>
                         <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
-                        <li><i class="fas fa-envelope"></i> electronics@shopeasy.com</li>
+                        <li><i class="fas fa-envelope"></i> support@shopeasy.com</li>
                     </ul>
                 </div>
             </div>
