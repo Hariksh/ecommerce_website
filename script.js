@@ -16,10 +16,29 @@ const products = [
         category: 'Electronics',
         rating: 4.2,
         description: 'Track your fitness goals, receive notifications, and more with this advanced smartwatch.'
+    },
+    {
+        id: 3,
+        name: '4K Smart TV 55',
+        price: 145.99,
+        image: "https://images.unsplash.com/photo-1542487354-feaf93476caa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHw0ayUyMHNtYXJ0JTIwdHZ8ZW58MHx8MHx8fDA%3D",
+        rating: 3.9,
+        description: "Stunning Ultra HD display with HDR, smart apps, and voice control for an immersive viewing experience",
+
+
+    }, 
+    {
+        id: 4,
+        name: 'VR Headset NextGen',
+        price: 150.34,
+        image: 'https://images.pexels.com/photos/3405456/pexels-photo-3405456.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        rating: 4.5,
+        description: " Immersive 360° experience, HD display, and motion tracking for gaming and entertainment"
+
     }
 ];
 
-// DOM Elements
+
 const productContainer = document.getElementById('product-container');
 const cartIcon = document.getElementById('cart-icon');
 const cartModal = document.getElementById('cart-modal');
