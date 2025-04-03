@@ -38,7 +38,6 @@ img {
 .btn {
     display: inline-block;
     background-color: #DAA520;
-    /* Changed from #4CAF50 to gold */
     color: white;
     padding: 10px 25px;
     border-radius: 4px;
@@ -69,10 +68,8 @@ img {
     width: 50px;
     height: 3px;
     background-color: #DAA520;
-    /* Changed from #4CAF50 to gold */
 }
 
-/* Header Styles */
 header {
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -92,7 +89,7 @@ header .container {
     font-size: 24px;
     font-weight: 700;
     color: #DAA520;
-    /* Changed from #4CAF50 to gold */
+
 }
 
 nav ul {
@@ -111,10 +108,10 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a.active {
     color: #DAA520;
-    /* Changed from #4CAF50 to gold */
+
 }
 
-/* Dropdown styles */
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -186,7 +183,6 @@ nav ul li a.active {
 
 #cart-count {
     background-color: #DAA520;
-    /* Changed from #4CAF50 to gold */
     color: white;
     font-size: 12px;
     border-radius: 50%;
@@ -194,7 +190,6 @@ nav ul li a.active {
     margin-left: 2px;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
     display: flex;
@@ -455,7 +450,7 @@ footer {
     border-top: 1px solid #444;
 }
 
-/* Modal (Cart) */
+
 .modal {
     display: none;
     position: fixed;
@@ -524,7 +519,6 @@ footer {
 
 .cart-item-price {
     color: #DAA520;
-    /* Changed from #4CAF50 to gold */
     font-weight: 600;
 }
 
@@ -567,11 +561,10 @@ footer {
 #cart-total {
     font-weight: 600;
     color: #DAA520;
-    /* Changed from #4CAF50 to gold */
     font-size: 22px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 992px) {
     nav ul li {
         margin-left: 15px;
@@ -655,7 +648,6 @@ footer {
     }
 }
 
-/* Contact Page Styles */
 .contact-hero {
     background-color: #f5f5f5;
     padding: 80px 0;
@@ -811,7 +803,6 @@ footer {
     }
 }
 
-/* About Page Styles */
 .about-hero {
     background-color: #f5f5f5;
     padding: 80px 0;
@@ -982,7 +973,6 @@ footer {
     }
 }
 
-/* Mission Section */
 .mission-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3');
     background-size: cover;
@@ -1008,7 +998,6 @@ footer {
     line-height: 1.8;
 }
 
-/* Timeline Section */
 .timeline-section {
     padding: 80px 0;
     background-color: #f9f9f9;
@@ -1092,7 +1081,6 @@ footer {
     line-height: 1.6;
 }
 
-/* Team Section Enhancements */
 .team-member {
     position: relative;
     overflow: hidden;
@@ -1372,15 +1360,11 @@ footer {
     opacity: 1;
 }
 
-/* Additional CSS for Clothing Page */
-
-/* Style for active category in dropdown */
 .dropdown-content a.active {
     color: #DAA520;
     background-color: #f9f9f9;
 }
 
-/* Fashion Seasons Section - Could be added to the page */
 .fashion-seasons {
     padding: 60px 0;
 }
@@ -1423,7 +1407,6 @@ footer {
     margin-bottom: 15px;
 }
 
-/* Size Guide - Could be added to product pages */
 .size-guide {
     margin-top: 40px;
     padding: 30px;
@@ -1453,7 +1436,6 @@ footer {
     color: #333;
 }
 
-/* Style enhancement for the filter section */
 .filter-section .container {
     padding: 20px;
     background-color: white;
@@ -1484,7 +1466,6 @@ footer {
     background-color: white;
 }
 
-/* Tag styling for product cards */
 .product-tag {
     position: absolute;
     top: 10px;
@@ -1506,7 +1487,6 @@ footer {
     background-color: #1e90ff;
 }
 
-/* Product color options */
 .color-options {
     display: flex;
     margin: 10px 0;
